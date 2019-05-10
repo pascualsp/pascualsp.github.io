@@ -3,6 +3,13 @@ html, body {
 	color: white;
 }
 
+.nav-item {
+	font-size:22px;
+	padding:0 20px;
+	cursor:pointer;
+}
+
+
 .parallax {
 	background-image: url("img/bgbw.png");
 	background-attachment: fixed;
