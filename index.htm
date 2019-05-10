@@ -1,29 +1,14 @@
 <!DOCTYPE html>
+
+<!-- TODO: Separate css into style.css, TOTAL REDESIGN -->
 <html>
 
     <head>
         <title>Serjohn Pascual</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap-responsive.css">
-        <!-- <script src="js/bootstrap.js"></script> -->
-        <style>
-        
-            body {
-                background-color: rgb(100, 100, 100);
-                color: white;
-            }
-            
-            .parallax {
-                background-image: url("img/bgbw.png");
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 100%;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
     </head>
 
     <body id="top">
@@ -40,7 +25,7 @@
 						<p onclick="autoScroll('about')" style="font-size:22px; cursor:pointer">About</p>
 					</li>
 					<li class="nav-item active" style="padding:0 20px">
-						<p style="font-size:22px; cursor:pointer">Resume</p>
+						<p onclick="autoScroll('experience')" style="font-size:22px; cursor:pointer">Experience</p>
 					</li>
 				</ul>
 			</div>
@@ -48,27 +33,34 @@
 		</nav>
         
         <div class="parallax" style="padding:20px 0 35px 0; height=100%">
-			<section>
+			<section style="height:1000px">
 				<div style="background-color:rgba(0, 0, 0, 0.5); max-width:500px; border-radius:20px; margin:5% auto 20px auto" align="center">
 					<h1 style="font-size:34px">Serjohn Pascual</h1>
-					<p style="font-size:18px">Computer Scientist | UCI Anteater | Thief Daddy</p>
+					<p style="font-size:18px">Software Engineer | Anteater Alumni | Thief Daddy</p>
 				</div>
 				<div align="center">
 					<img src="img/me.jpg" class="rounded" alt="pic of me" title="dis me" style="max-width:310px; margin-bottom:25px; border:2px solid white">
 				</div>
-				<div align="center" style="margin:0 0 12% 0">
-					<a href="https://www.facebook.com/serjohn.pascual" target="_blank">
-						<img src="img/facebook_icon.png" alt="f" style="width:70px; padding: 0px 10px;">
+				<div align="center">
+					<a href="https://www.linkedin.com/in/serjohn-pascual-115550184/" target="_blank">
+						<i class="icon fab fa-linkedin fa-3x"></i>
 					</a>
-					<a href="https://www.instagram.com/ser.johnn/" target="_blank">
-						<img src="img/instagram_icon.png" alt="i" style="width:70px; padding: 0px 10px">
+					<a href="https://github.com/pascualsp/" target="_blank">
+						<i class="icon fab fa-github fa-3x"></i>
 					</a>
 				</div>
 			</section>
 			
 			<section id="about">
-				<div style="background-color:rgba(35, 35, 35, 0.74); height:1500px">
+				<div style="background-color:rgba(35, 35, 35, 0.74); height:1000px">
 					<h2 style="text-align:center; padding-top:40px">About</h2>
+					<p style="font-size:18px" align="center">something something blah blah blah</p>
+				</div>
+			</section>
+			
+			<section id="experience">
+				<div style="height:1000px">
+					<h2 style="text-align:center; padding-top:40px">Experience</h2>
 					<p style="font-size:18px" align="center">something something blah blah blah</p>
 				</div>
 			</section>

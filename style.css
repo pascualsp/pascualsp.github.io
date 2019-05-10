@@ -1,0 +1,18 @@
+html, body {
+	background-color: rgb(100, 100, 100);
+	color: white;
+}
+
+.parallax {
+	background-image: url("img/bgbw.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+.icon {
+	color: white;
+	padding: 15px;
+}
