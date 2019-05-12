@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-<!-- TODO: Separate css into style.css, TOTAL REDESIGN -->
 <html>
 
     <head>
@@ -8,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
     </head>
 
@@ -18,18 +18,18 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<p onclick="autoScroll('about')">About</p>
+						<p class="nav-link" onclick="autoScroll('about')">About</p>
 					</li>
 					<li class="nav-item active">
-						<p onclick="autoScroll('experience')">Experience</p>
+						<p class="nav-link" onclick="autoScroll('experience')">Experience</p>
 					</li>
 				</ul>
 			</div>
 			
 		</nav>
-        
+
         <div class="fixed">
-			<section class="segment">
+			<div class="segment">
 				<div class="centered" align="center">
 					<h1>Serjohn Pascual</h1>
 					<h5>Software Engineer | Anteater Alumni</p>
@@ -48,27 +48,24 @@
 						<i class="icon fab fa-github fa-3x"></i>
 					</a>
 				</div>
-			</section>
-			
-			<section id="about">
-				<div class="segment gray-bg">
+			</div>
+
+			<div id="about" class="segment gray-bg">
+				<div id="about-content">
 					<h2 class="segment-header">About</h2>
 				</div>
-			</section>
+			</div>
 			
-			<section id="experience">
-				<div class="segment">
+			<div id="experience" class="segment">
+				<div id="experience-content">
 					<h2 class="segment-header">Experience</h2>
 				</div>
-			</section>
+			</div>
         </div>
 		        
     </body>
-	
-	<script>
-		function autoScroll(target) {
-			document.getElementById(target).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-		}
-	</script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
 
 </html>

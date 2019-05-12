@@ -1,4 +1,5 @@
 html, body {
+	font-family: 'Oxygen', sans-serif;
 	background-image: url("img/bgbw.png");
 	background-attachment: fixed;
 	background-position: center;
@@ -11,10 +12,18 @@ h5 {
 	font-weight:normal;
 }
 
+#about-content, #experience-content{
+	display: none;
+}
+
 .nav-item {
 	font-size: 22px;
 	padding: 0 20px;
 	cursor: pointer;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #ffffff;
 }
 
 .logo {
