@@ -1,25 +1,54 @@
 html, body {
-	background-color: rgb(100, 100, 100);
-	color: white;
-}
-
-.nav-item {
-	font-size:22px;
-	padding:0 20px;
-	cursor:pointer;
-}
-
-
-.parallax {
 	background-image: url("img/bgbw.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
+	color: white;
+}
+
+h5 {
+	font-weight:normal;
+}
+
+.nav-item {
+	font-size: 22px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+.logo {
+	font-size:34px;
+}
+
+.segment {
+	height: 980px
+}
+
+.centered {
+	margin-top:8em;
+}
+
+.fixed {
+	padding:1px
+}
+
+.gray-bg {
+	background-color: rgba(35, 35, 35, 0.74);
+}
+
+.segment-header {
+	text-align: center;
+	padding-top: 1em;
 }
 
 .icon {
 	color: white;
 	padding: 15px;
+}
+
+.profile-pic {
+	max-width:310px;
+	margin-bottom:25px;
+	border:2px solid white
 }
