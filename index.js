@@ -22,17 +22,26 @@ function autoScroll(target) {
 
 $(document).ready(function() {
 	
-  $(document).on("scroll", function () {
-    if (inView(about, windowObj) && !aboutRender) {
-        $("#about-content").animate({width:'toggle'}, 1000);
-		aboutRender = true;
-    };
+	if (inView(about, windowObj) && !aboutRender) {
+			$("#about-header").animate({width:'toggle'}, 1000);
+			aboutRender = true;
+	};
 	
 	if (inView(exp, windowObj) && !expRender) {
-        $("#experience-content").animate({width:'toggle'}, 1000);
-		expRender = true;
-    };
+			$("#experience-header").animate({width:'toggle'}, 1000);
+			expRender = true;
+	};
 	
-  });
+	$(document).scroll(function () {
+		if (inView(about, windowObj) && !aboutRender) {
+			$("#about-header").animate({width:'toggle'}, 1000);
+			aboutRender = true;
+		};
+	
+		if (inView(exp, windowObj) && !expRender) {
+			$("#experience-header").animate({width:'toggle'}, 1000);
+			expRender = true;
+		};
+	});
   
 });

@@ -12,8 +12,9 @@ h5 {
 	font-weight:normal;
 }
 
-#about-content, #experience-content{
+#about-header, #experience-header{
 	display: none;
+	margin-bottom: 50px;
 }
 
 .nav-item {
@@ -30,8 +31,12 @@ h5 {
 	font-size:34px;
 }
 
+.top-segment {
+	height: 980px;
+}
+
 .segment {
-	height: 980px
+	height: 980px;
 }
 
 .centered {
@@ -39,7 +44,7 @@ h5 {
 }
 
 .fixed {
-	padding:1px
+	padding:1px;
 }
 
 .gray-bg {
@@ -57,7 +62,7 @@ h5 {
 }
 
 .profile-pic {
-	max-width:310px;
-	margin-bottom:25px;
-	border:2px solid white
+	/* max-width: 360px; */
+	/* height: auto; */
+	border: 2px solid white;
 }
