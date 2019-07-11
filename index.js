@@ -1,8 +1,8 @@
 var windowObj = $(window);
 var about = $("#about");
 var aboutRender = false;
-var exp = $("#experience");
-var expRender = false;
+var proj = $("#projects");
+var projRender = false;
 
 
 function inView($elem, $window) {
@@ -27,9 +27,9 @@ $(document).ready(function() {
 			aboutRender = true;
 	};
 	
-	if (inView(exp, windowObj) && !expRender) {
-			$("#experience-header").animate({width:'toggle'}, 1000);
-			expRender = true;
+	if (inView(proj, windowObj) && !projRender) {
+			$("#projects-header").animate({width:'toggle'}, 1000);
+			projRender = true;
 	};
 	
 	$(document).scroll(function () {
@@ -38,9 +38,9 @@ $(document).ready(function() {
 			aboutRender = true;
 		};
 	
-		if (inView(exp, windowObj) && !expRender) {
-			$("#experience-header").animate({width:'toggle'}, 1000);
-			expRender = true;
+		if (inView(proj, windowObj) && !projRender) {
+			$("#projects-header").animate({width:'toggle'}, 1000);
+			projRender = true;
 		};
 	});
   
