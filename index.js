@@ -7,7 +7,7 @@ var projRender = false;
 
 function inView($elem, $window) {
     var docViewTop = $window.scrollTop();
-    var docViewBottom = docViewTop + $window.height();
+    var docViewBottom = docViewTop + $window.height() - 10;
 
     var elemTop = $elem.offset().top;
 
@@ -21,6 +21,8 @@ function autoScroll(target) {
 
 
 $(document).ready(function() {
+	
+	$("#main").slideDown(1000);
 	
 	if (inView(about, windowObj) && !aboutRender) {
 			$("#about-header").animate({width:'toggle'}, 1000);

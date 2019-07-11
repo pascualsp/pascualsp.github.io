@@ -8,8 +8,16 @@ html, body {
 	color: white;
 }
 
+h1 {
+	font-size: 3.5em;
+}
+
 h5 {
-	font-weight:normal;
+	font-weight: normal;
+}
+
+#main {
+	display: none;
 }
 
 #about-header, #projects-header{
@@ -28,7 +36,7 @@ h5 {
 }
 
 .logo {
-	font-size:34px;
+	font-size: 34px;
 }
 
 .segment {
@@ -36,11 +44,11 @@ h5 {
 }
 
 .centered {
-	margin-top:8em;
+	margin-top: 8em;
 }
 
 .fixed {
-	padding:1px;
+	padding: 1px;
 }
 
 .gray-bg {
