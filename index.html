@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Serjohn Pascual</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <div>
+            <nav class="navbar">
+                <a class="nav-item logo" href="#">S | P</a>
+                <a class="nav-item" href="#about">About</a>
+                <a class="nav-item" href="#projects"> Projects</a>
+            </nav>
+        </div>
+
+        <div class="splash">
+            <div class="main-header">
+                <h1 class="name">Serjohn Pascual</h1>
+                <h3 class="title">Software Engineer</h3>
+            </div>
+            <hr/>
+            <nav>
+                <a href="https://www.linkedin.com/in/serjohn-pascual-115550184/" target="_blank" rel="noopener">
+                    <i class="social fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/pascualsp/" target="_blank" rel="noopener">
+                    <i class="social fab fa-github"></i>
+                </a>
+                <a href="mailto:serjohn.pascual@gmail.com" target="_blank" rel="noopener">
+                    <i class="social fas fa-envelope"></i>
+                </a>
+            </nav>
+        </div>
+
+        <div id="about" class="about-section">
+            <div class="about-content">
+                <img src="imgs/me.jpg" class="profile-pic" alt="pic of me">
+                <div class="about-info">
+                    <h2 class="section-header">About Me</h2>
+                    <h4>Hello! The name's Serjohn.</h4>
+                    <p>
+                        I am a software engineer currently doing web development work with Java. In my free time I  
+                        enjoy making JavaScript web apps and learning about the hottest new tech. I am 
+                        interested in all things technology and enjoy the challenges and level of thinking 
+                        involved in software development.
+                    </p>
+                    <p>
+                        Want to know more about my career side of things? Check out my resume 
+                        <a href="https://drive.google.com/file/d/19xVaUAAg9ouV-6ZfDW_d6Oc3dyxbQ-cu/view?usp=sharing" target="_blank" rel="noopener">here</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="projects-section">
+            <h2 class="section-header projects-header">Projects</h2>
+            <div class="project-entry">
+                <img src="imgs/quiz.png" class="project-img">
+                <div class="project-info">
+                    <h3>Quizia</h3>
+                    <p>
+                        A web app that allows users to create their own custom collection of trivia questions, or any 
+                        kind of question really! Users can input their own questions as well as choose from a premade 
+                        database of curated trivia questions.
+                    </p>
+                    <h4>Technology:</h4>
+                    <p>
+                        <span class="underline">Front-end</span>: React, HTML, CSS, Bootstrap<br/>
+                        <span class="underline">Back-end</span>: Node.js, Express, MongoDB<br/>
+                        Premade trivia questions powered by Open Trivia Database
+                    </p>
+                    <a href="https://pascualsp-trivia-app.herokuapp.com/" target="_blank" rel="noopener">
+                        Try it out <i class="project-link fas fa-external-link-alt"></i>
+                    </a><br />
+                    <a href="https://github.com/pascualsp/Trivia-App" target="_blank" rel="noopener">
+                        Link to GitHub repo <i class="project-link fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-entry">
+                <img src="imgs/hnremix.png" class="project-img">
+                <div class="project-info">
+                    <h3>Hacker News Remix</h3>
+                    <p>
+                        A news reader that offers an alternative look for Y Combinator's Hacker News. The 
+                        layout is similar to the regular Hacker News website but offers a darker sleeker look as well 
+                        as other features.
+                    </p>
+                    <h4>Technology:</h4>
+                    <p>
+                        React, HTML, styled-components (CSS-in-JS framework), Hacker News API
+                    </p>
+                    <a href="https://hn-remix.netlify.app/" target="_blank" rel="noopener">
+                        Try it out <i class="project-link fas fa-external-link-alt"></i>
+                    </a><br />
+                    <a href="https://github.com/pascualsp/HN-Remix" target="_blank" rel="noopener">
+                        Link to GitHub repo <i class="project-link fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-entry">
+                <img src="imgs/pokedex.png" class="project-img">
+                <div class="project-info">
+                    <h3>SimpléDex</h3>
+                    <p>
+                        A web app that lists all Pokemon according to region/generation. Clicking on a Pokemon displays a 
+                        window with further details about it.
+                    </p>
+                    <h4>Technology:</h4>
+                    <p>
+                        React, HTML, CSS, Bootstrap, PokéAPI
+                    </p>
+                    <a href="https://github.com/pascualsp/React-Pokedex" target="_blank" rel="noopener">
+                        Link to GitHub repo <i class="project-link fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-entry">
+                <img src="imgs/youtube.png" class="project-img">
+                <div class="project-info">
+                    <h3>React Youtube Clone</h3>
+                    <p>
+                        A simple one page web app that allows users to search, browse, and watch Youtube videos. This 
+                        project was made as part of a Udemy online course. It was one of my first projects using React 
+                        and was a good learning experience. The course and this project also gave me the push to work 
+                        on more side projects.
+                    </p>
+                    <h4>Technology:</h4>
+                    <p>
+                        React, HTML, CSS, Semantic UI, Youtube API
+                    </p>
+                    <a href="https://github.com/pascualsp/Youtube-Clone" target="_blank" rel="noopener">
+                        Link to GitHub repo <i class="project-link fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-entry">
+                <img src="imgs/fabflix.png" class="project-img">
+                <div class="project-info">
+                    <h3>FabFlix</h3>
+                    <p>
+                        This project was made as part of UCI's 122B (Project in Databases and Web Applications) course. 
+                        FabFlix is an e-commerce movie website and mobile app that allows users to search, browse and 
+                        purchase movies. This was one of the largest school projects I've done and was also my first 
+                        real exposure to web development. The course and project taught me a lot about fullstack 
+                        development as well as mobile app development.
+                    </p>
+                    <h4>Technology:</h4>
+                    <p>
+                        <span class="underline">Front-end</span>: HTML, CSS, Javascript, jQuery, AJAX<br/>
+                        <span class="underline">Back-end</span>: Java, Java Servlets, MySQL, AWS, Apache Tomcat<br/>
+                        <span class="underline">Mobile</span>: Android Studio
+                    </p>
+                    <a href="https://github.com/pascualsp/FabFlix" target="_blank" rel="noopener">
+                        Link to GitHub repo <i class="project-link fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
