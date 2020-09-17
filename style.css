@@ -121,7 +121,7 @@ hr {
 
 .scroll-arrow {
     position: absolute;
-    bottom: 100px;
+    bottom: 10%;
     font-size: 28px;
     opacity: 0;
     animation: fadeIn 2s 2.5s, bob 1.75s ease infinite;
