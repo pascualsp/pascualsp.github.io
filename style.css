@@ -92,6 +92,7 @@ hr {
 
 .title {
     font-weight: lighter;
+    font-size: 1.15em;
     letter-spacing: 1px;
 }
 
@@ -165,6 +166,10 @@ hr {
 .about-info {
     max-width: 575px;
     margin: 5px 75px;
+}
+
+.about-info h3 {
+    font-size: 1em;
 }
 
 @media only screen and (max-width: 900px) {
