@@ -137,13 +137,12 @@ hr {
 }
 
 .about-section {
-    background-color: hsl(200, 6%, 92%);
-    color: black;
+    background-color: hsl(220, 15%, 30%);
+    color: white;
 }
 
 .about-section a {
     font-weight: bold;
-    color: hsl(200, 50%, 35%);
 }
 
 .about-section p {
@@ -159,6 +158,7 @@ hr {
 
 .profile-pic {
     width: 300px;
+    border: 4px solid #e8e6e3;
     border-radius: 50%;
     margin: 5px 75px;
 }
@@ -201,14 +201,6 @@ hr {
     justify-content: center;
     align-items: center;
     margin-bottom: 65px
-}
-
-.project-card {
-    background-color: #e8e6e3;
-    margin-top: -10px;
-    margin-left: -10px;
-    width: 100px;
-    border-radius: 8px;
 }
 
 .project-img {
