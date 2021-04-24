@@ -76,7 +76,9 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 104vh;
+    background-image: url('./imgs/bg.jpg');
+    background-position: top;
 }
 
 .main-header {
@@ -139,6 +141,8 @@ hr {
 .about-section {
     background-color: hsl(220, 15%, 30%);
     color: white;
+    margin: -25px 25px 2px 25px;
+    border-radius: 25px;
 }
 
 .about-section a {
@@ -175,6 +179,10 @@ hr {
 @media only screen and (max-width: 900px) {
     .section-header {
         margin-bottom: 26px;
+    }
+
+    .about-section {
+        margin: -25px 4px 2px 4px;
     }
 
     .about-content {
